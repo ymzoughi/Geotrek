@@ -9,7 +9,7 @@ p{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;co
 .navbar .nav li a:hover,.navbar .nav li a:active{color:#bdce12}
 .row{position:relative}
 .row img{width:100%;height:auto;margin-top:9em}
-.navbar .nav li a{text-transform:uppercase}
+.navbar .nav li a{text-transform:uppercase;cursor:pointer}
 .navbar img{marign:10px}
 .top-bar{background:#bdce12;height:2px;width:84px;position:absolute;left:144px}
 .opac-row{background:rgba(255,255,255,0.7);width:30%;height:50%;position:absolute;bottom:0;right:5%}

@@ -5,17 +5,6 @@ $(".nav a").click(function(){
 	$(this).addClass("active");
 });
 $(window).scroll(function() {
-	//var h = document.getElementsByTagName("H1");
-	//console.log(h);
-	//for (var i = 0; i < h.length; i++) {
-	//	console.log (h[i].getBoundingClientRect().top);
-			//console.log(h[i].id);
-		//sliceTo($('[data-spy ='+h[i].id+']'));
-	
-	//}
-	
-//console.log(document.getElementById('h1'));
-//console.log (h.getBoundingClientRect());
 });
 function sliceTo(elm)
 {
