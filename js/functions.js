@@ -1,5 +1,6 @@
 $(".nav a").click(function(){
 	sliceTo($(this));
+	$.scrollTo('#'+$(this).data("spy"), 500,{offset:-$('.navbar-fixed-top').height()})
 });
 $(window).scroll(function() {
 	//var h = document.getElementsByTagName("H1");
