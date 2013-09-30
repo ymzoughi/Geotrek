@@ -2,6 +2,7 @@
 .Font-page{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;color:#3c3c3c;line-height:1.5em}
 .light-white{background:rgba(255,255,255,0.7);width:30%;height:50%;position:absolute;bottom:0;right:5%}
 .btn_custom{opacity:.8;border:none;color:#fff;height:3em;width:60%;margin:.5em}
+.navbar .nav li a.active{color:#bdce12}
 .center{text-align:center}
 .btn_custom_black{opacity:.8;border:none;color:#fff;height:3em;width:60%;margin:.5em;background:#3c3c3c}
 p{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;color:#3c3c3c;line-height:1.5em}

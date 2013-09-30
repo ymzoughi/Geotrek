@@ -1,6 +1,8 @@
 $(".nav a").click(function(){
+	$(".navbar .nav li a").removeClass("active");
 	sliceTo($(this));
-	$.scrollTo('#'+$(this).data("spy"), 500,{offset:-$('.navbar-fixed-top').height()})
+	$.scrollTo('#'+$(this).data("spy"), 500,{offset:-$('.navbar-fixed-top').height()});
+	$(this).addClass("active");
 });
 $(window).scroll(function() {
 	//var h = document.getElementsByTagName("H1");
