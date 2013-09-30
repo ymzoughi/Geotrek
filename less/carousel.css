@@ -1,0 +1,7 @@
+.news-wrapper{width:100%;padding:1em}
+.carousel-inner{width:80%;margin-left:auto;margin-right:auto}
+.carousel-inner img{width:100%;height:auto}
+.carousel-control{background:none}
+.carousel-indicators{top:101%}
+.carousel-indicators li{background-color:#e4e4e4}
+.carousel-indicators .active{background-color:#bababa}
