@@ -18,7 +18,7 @@ p{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;co
 h3{font-weight:100;font-family:"Signika",Helvetica,Arial,sans-serif;color:#284007;padding:.5em 0 0 1em;text-transform:uppercase}
 h4{font-weight:100;font-family:"Signika",Helvetica,Arial,sans-serif;color:#284007;padding:.5em 0 0 2em;text-transform:none}
 .opac-row h3{color:#bdce12;text-align:center;font-weight:100;text-transform:none;padding:.5em}
-.opac-row hr{width:90%;margin:0 auto 0 auto}
+.opac-row hr{width:90%;margin:0 auto 0 auto;border:solid 1px #b3c1ab}
 h1.Green{font-size:24pt;color:#fff}
 .Green{background:#97bb35}
 h1.White{font-size:24pt;color:#97bb35}
@@ -32,4 +32,4 @@ h1.Black{font-size:24pt;color:#fff}
 .license p{padding:0;color:#f4f4f4}
 .footer{text-align:center}
 .footer img{padding:1em}
-@media only screen and (max-width:800px){h1.Green{text-align:center;padding-left:0} h1.White{text-align:center;padding-left:0} h1.Black{text-align:center;padding-left:0} h3{text-align:center;padding-left:0}}@media only screen and (max-width:1080px){.navbar .brand{display:none} .row img{margin-top:41px} .top-bar{display:none}}@media only screen and (max-width:1280px){}@media only screen and (max-width:979px){.row img{margin-top:0}}
+@media only screen and (max-width:800px){.opac-row{right:0;position:relative;width:100%} h1.Green{text-align:center;padding-left:0} h1.White{text-align:center;padding-left:0} h1.Black{text-align:center;padding-left:0} h3{text-align:center;padding-left:0}}@media only screen and (max-width:1080px){.navbar .brand{display:none} .row img{margin-top:41px} .top-bar{display:none}}@media only screen and (max-width:979px){.row img{margin-top:0} .navbar-fixed-top{margin-bottom:0}}
