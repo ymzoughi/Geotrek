@@ -24,8 +24,8 @@ h1
 .light-white
 {
 	background: rgba(255, 255, 255, 0.7);
-	width:30%;
-	height:50%;
+	width:35em;
+	height:30em;
 	position:absolute;
 	bottom:0;
 	right:5%;
@@ -51,6 +51,11 @@ h1
 {
 	.btn_custom;
 	background:#3c3c3c;
+}
+.btn_custom_green
+{
+	.btn_custom;
+	background:@GreenMakina;
 }
 p
 {
@@ -91,11 +96,12 @@ p
 {
 	.light-white;
 }
-.opac-row .wrapper
+.wrapper
 {
 	text-align:center;
-	position:relative;
-	bottom:0
+	position:absolute;
+	bottom:0;
+	width:100%;
 }
 h3
 {
@@ -188,6 +194,7 @@ h1.Black
 {
 	padding:1em;
 }
+
 @media only screen and (max-width:800px) {
  h1.Green {
  	text-align:center;
@@ -206,4 +213,31 @@ h1.Black
  	padding-left:0;
  }
 }
+@media only screen and (max-width:1080px) 
+{
+	.navbar .brand
+	{
+		display:none;
+	}
+	.row img
+	{
+		margin-top:41px;
+	}
+	.top-bar
+	{
+		display:none;
+	}
+}
+@media only screen and (max-width:1280px) 
+{
+	
+}
+@media only screen and (max-width:979px) 
+{
+	.row img
+	{
+		margin-top:0;
+	}
+}
+
 

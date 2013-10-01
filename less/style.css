@@ -1,10 +1,11 @@
 @font-face{font-family:"Signika";src:url('../font/Signika-Light.ttf')}h1{font-family:"Signika",Helvetica,Arial,sans-serif;font-weight:100;margin:0;text-transform:uppercase;padding:.5em 0 0 1em;font-size:24pt}
 .Font-page{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;color:#3c3c3c;line-height:1.5em}
-.light-white{background:rgba(255,255,255,0.7);width:30%;height:50%;position:absolute;bottom:0;right:5%}
+.light-white{background:rgba(255,255,255,0.7);width:35em;height:30em;position:absolute;bottom:0;right:5%}
 .btn_custom{opacity:.8;border:none;color:#fff;height:3em;width:60%;margin:.5em}
 .navbar .nav li a.active{color:#bdce12}
 .center{text-align:center}
 .btn_custom_black{opacity:.8;border:none;color:#fff;height:3em;width:60%;margin:.5em;background:#3c3c3c}
+.btn_custom_green{opacity:.8;border:none;color:#fff;height:3em;width:60%;margin:.5em;background:#bdce12}
 p{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;color:#3c3c3c;line-height:1.5em}
 .navbar .nav li a:hover,.navbar .nav li a:active{color:#bdce12}
 .row{position:relative}
@@ -12,8 +13,8 @@ p{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;co
 .navbar .nav li a{text-transform:uppercase;cursor:pointer}
 .navbar img{marign:10px}
 .top-bar{background:#bdce12;height:2px;width:84px;position:absolute;left:144px}
-.opac-row{background:rgba(255,255,255,0.7);width:30%;height:50%;position:absolute;bottom:0;right:5%}
-.opac-row .wrapper{text-align:center;position:relative;bottom:0}
+.opac-row{background:rgba(255,255,255,0.7);width:35em;height:30em;position:absolute;bottom:0;right:5%}
+.wrapper{text-align:center;position:absolute;bottom:0;width:100%}
 h3{font-weight:100;font-family:"Signika",Helvetica,Arial,sans-serif;color:#284007;padding:.5em 0 0 1em;text-transform:uppercase}
 h4{font-weight:100;font-family:"Signika",Helvetica,Arial,sans-serif;color:#284007;padding:.5em 0 0 2em;text-transform:none}
 .opac-row h3{color:#bdce12;text-align:center;font-weight:100;text-transform:none;padding:.5em}
@@ -31,4 +32,4 @@ h1.Black{font-size:24pt;color:#fff}
 .license p{padding:0;color:#f4f4f4}
 .footer{text-align:center}
 .footer img{padding:1em}
-@media only screen and (max-width:800px){h1.Green{text-align:center;padding-left:0} h1.White{text-align:center;padding-left:0} h1.Black{text-align:center;padding-left:0} h3{text-align:center;padding-left:0}}
+@media only screen and (max-width:800px){h1.Green{text-align:center;padding-left:0} h1.White{text-align:center;padding-left:0} h1.Black{text-align:center;padding-left:0} h3{text-align:center;padding-left:0}}@media only screen and (max-width:1080px){.navbar .brand{display:none} .row img{margin-top:41px} .top-bar{display:none}}@media only screen and (max-width:1280px){}@media only screen and (max-width:979px){.row img{margin-top:0}}
