@@ -1,4 +1,4 @@
-@font-face{font-family:"Signika";src:url('../font/Signika-Light.ttf')}h1{font-family:"Signika",Helvetica,Arial,sans-serif;font-weight:100;margin:0;text-transform:uppercase;padding:.5em 0 0 1em}
+@font-face{font-family:"Signika";src:url('../font/Signika-Light.ttf')}h1{font-family:"Signika",Helvetica,Arial,sans-serif;font-weight:100;margin:0;text-transform:uppercase;padding:.5em 0 0 1em;font-size:24pt}
 .Font-page{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;color:#3c3c3c;line-height:1.5em}
 .light-white{background:rgba(255,255,255,0.7);width:30%;height:50%;position:absolute;bottom:0;right:5%}
 .btn_custom{opacity:.8;border:none;color:#fff;height:3em;width:60%;margin:.5em}
@@ -15,7 +15,8 @@ p{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;co
 .opac-row{background:rgba(255,255,255,0.7);width:30%;height:50%;position:absolute;bottom:0;right:5%}
 .opac-row .wrapper{text-align:center;position:relative;bottom:0}
 h3{font-weight:100;font-family:"Signika",Helvetica,Arial,sans-serif;color:#284007;padding:.5em 0 0 1em;text-transform:uppercase}
-.opac-row h3{color:#bdce12;text-align:center;font-weight:100}
+h4{font-weight:100;font-family:"Signika",Helvetica,Arial,sans-serif;color:#284007;padding:.5em 0 0 2em;text-transform:uppercase}
+.opac-row h3{color:#bdce12;text-align:center;font-weight:100;text-transform:none}
 .opac-row hr{width:90%;margin-left:auto;margin-right:auto}
 h1.Green{font-size:24pt;color:#fff}
 .Green{background:#97bb35}
