@@ -32,4 +32,5 @@ h1.Black{font-size:24pt;color:#fff}
 .license p{padding:0;color:#f4f4f4}
 .footer{text-align:center}
 .footer img{padding:1em}
+select{-webkit-appearance:none;border:none;width:2em;color:#bdce12}
 @media only screen and (max-width:800px){.opac-row{right:0;position:relative;width:100%} h1.Green{text-align:center;padding-left:0} h1.White{text-align:center;padding-left:0} h1.Black{text-align:center;padding-left:0} h3{text-align:center;padding-left:0}}@media only screen and (max-width:1080px){.navbar .brand{display:none} .row img{margin-top:41px} .top-bar{display:none}}@media only screen and (max-width:979px){.row img{margin-top:0} .navbar-fixed-top{margin-bottom:0}}
