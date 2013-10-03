@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-  // Handler for .ready() called.
-  //alert ("test");
+  
+  $("a").fancybox();
   $( window ).resize(function() {
   		//alert ("test");
   		var widthCarousel = $("#carousel-example-generic1").width();
