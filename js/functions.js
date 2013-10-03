@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   
-  $("a").fancybox();
+  $(".fancy").fancybox();
   $( window ).resize(function() {
   		//alert ("test");
   		var widthCarousel = $("#carousel-example-generic1").width();
