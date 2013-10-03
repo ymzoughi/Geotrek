@@ -1,4 +1,15 @@
-$(".nav a").click(function(){
+$( document ).ready(function() {
+  // Handler for .ready() called.
+  //alert ("test");
+  $( window ).resize(function() {
+  		//alert ("test");
+  		var widthCarousel = $("#carousel-example-generic1").width();
+  		var withIndicator = $("#carousel-example-generic1 .carousel-indicators").width();
+  		var left = (widthCarousel/2)-(withIndicator/2);
+  		console.log(left);
+  		//$('.carousel-indicators').css('left',left+'px');
+  });
+  $(".nav a").click(function(){
 	$(".navbar .nav li a").removeClass("active");
 	sliceTo($(this));
 	$.scrollTo('#'+$(this).data("spy"), 500,{offset:-$('.navbar-fixed-top').height()});
@@ -17,3 +28,4 @@ function sliceTo(elm)
   			//$(elm).css('color','#bdce12');
   	});
 }
+});
