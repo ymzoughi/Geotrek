@@ -77,7 +77,6 @@ p
 {
 	width:100%;
 	height:auto;
-	margin-top:9em;
 }
 .navbar .nav li a
 {
@@ -202,15 +201,27 @@ h1.Black
 select
 {
 	-webkit-appearance: none;
+	-moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
 	border: none;
-	width:2.5em;
+	width:4em;
 	color:#bdce12;
-	background:url('../img/arrow.png');
+	background:url('../img/arrow.png') no-repeat 30px 18px;
 	background-repeat: no-repeat;
-	background-position-x: 25px;
-	background-position-y: 16px;
-}
+	padding-top:5px;
 
+}
+/*
+========================================================
+Specific for Mozilla 
+======================================================== */
+
+@-moz-document url-prefix() {
+	select {
+		padding-top:11px;
+	}
+}
 
 @media only screen and (max-width:800px) {
  .opac-row

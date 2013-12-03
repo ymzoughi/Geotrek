@@ -10,7 +10,7 @@
 p{font-family:"Signika",Helvetica,Arial,sans-serif;padding:1em;font-size:10pt;color:#3c3c3c;line-height:1.5em}
 .navbar .nav li a:hover,.navbar .nav li a:active{color:#bdce12}
 .row{position:relative}
-.row img{width:100%;height:auto;margin-top:9em}
+.row img{width:100%;height:auto}
 .navbar .nav li a{text-transform:uppercase;cursor:pointer}
 .navbar img{marign:10px}
 .top-bar{background:#bdce12;height:2px;width:84px;position:absolute;left:162px}
@@ -33,5 +33,5 @@ h1.Black{font-size:24pt;color:#fff}
 .license p{padding:0;color:#f4f4f4}
 .footer{text-align:center}
 .footer img{padding:1em}
-select{-webkit-appearance:none;border:none;width:2.5em;color:#bdce12;background:url('../img/arrow.png');background-repeat:no-repeat;background-position-x:25px;background-position-y:16px}
-@media only screen and (max-width:800px){.opac-row{right:0;position:relative;width:100%} h1.Green{text-align:center;padding-left:0} h1.White{text-align:center;padding-left:0} h1.Black{text-align:center;padding-left:0} h3{text-align:center;padding-left:0}}@media only screen and (max-width:1080px){.navbar .brand{display:none} .row img{margin-top:41px} .top-bar{display:none}}@media only screen and (max-width:979px){.row img{margin-top:0} .navbar-fixed-top{margin-bottom:0}}@media only screen and (max-width:420px){.opac-row{height:35em}}
+select{-webkit-appearance:none;-moz-appearance:none;text-indent:.01px;text-overflow:'';border:none;width:4em;color:#bdce12;background:url('../img/arrow.png') no-repeat 30px 18px;background-repeat:no-repeat;padding-top:5px}
+@-moz-document url-prefix(){select{padding-top:11px}}@media only screen and (max-width:800px){.opac-row{right:0;position:relative;width:100%} h1.Green{text-align:center;padding-left:0} h1.White{text-align:center;padding-left:0} h1.Black{text-align:center;padding-left:0} h3{text-align:center;padding-left:0}}@media only screen and (max-width:1080px){.navbar .brand{display:none} .row img{margin-top:41px} .top-bar{display:none}}@media only screen and (max-width:979px){.row img{margin-top:0} .navbar-fixed-top{margin-bottom:0}}@media only screen and (max-width:420px){.opac-row{height:35em}}
