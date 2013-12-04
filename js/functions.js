@@ -1,5 +1,19 @@
 $( document ).ready(function() {
-  
+  $( ".animated-text-1").animate({
+    left: "+=1100",
+  }, 500, function() {
+    // Animation complete.
+  });
+  $( ".animated-text-2").animate({
+    left: "+=1386",
+  }, 700, function() {
+    // Animation complete.
+  });
+  $( ".animated-text-3").animate({
+    left: "+=1486",
+  }, 800, function() {
+    // Animation complete.
+  });
   $(".fancy").fancybox();
   $( window ).resize(function() {
   		//alert ("test");
